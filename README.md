@@ -1,6 +1,6 @@
 # Crowdfunding_ETL
 
-** Contacts DataFrame**
+**Contacts DataFrame**
 
 - Used **option 2: Regex to create the contacts DataFrame**
     - Used findall with '\d+' to pull the 4 digit contact_id
