@@ -1,5 +1,12 @@
 # Crowdfunding_ETL
 
+**Category, Subcategory and Campaign Dataframes**
+
+Firstly, we received a csv file consisting of crowdfunding information. Upon examination, it was revealed that the file comprised of 1,000 rows of 15 columns. The examination also revealed that category and sub-category information was combined into one column. Because it is desirous to create individual dataframe for both categorical and sub-categorical, two new columns were created.
+Secondly,  a list for each was created, and it was revealed that there were nine categories and twenty-four sub-categories.
+Thirdly, IDs for each category and subcategory, category_id and subcategory_id, respectively, were created, and using list comprehensions, cat1-cat9 and subcat1 -subcat24 IDs, respectively, were created.
+Lastly, two csv files were created and exported: a first csv file consisting of category_id and corresponding category columns for each category, and a second csv file consisting of subcategory_id and corresponding subcategory columns for each subcategory.
+
 **Contacts DataFrame**
 
 - Used **option 2: Regex to create the contacts DataFrame**
